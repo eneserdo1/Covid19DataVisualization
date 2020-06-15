@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="725.0" prefWidth="1330.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TableView fx:id="tableCountry" layoutX="19.0" layoutY="50.0" prefHeight="287.0" prefWidth="679.0">
+        <columns>
+          <TableColumn fx:id="columnId" prefWidth="57.80002021789551" text="ID" />
+          <TableColumn fx:id="columnName" prefWidth="109.60002899169922" text="Name" />
+            <TableColumn fx:id="columnContinent" prefWidth="96.20001220703125" text="Continent" />
+            <TableColumn fx:id="columnCases" prefWidth="45.0" text="Cases" />
+            <TableColumn fx:id="columnDeath" prefWidth="45.0" text="Death" />
+            <TableColumn fx:id="columnPopulation" text="Population" />
+            <TableColumn fx:id="columnDay" prefWidth="40.0" text="Day" />
+            <TableColumn fx:id="columnMonth" prefWidth="40.0" text="Month" />
+            <TableColumn fx:id="columnYear" prefWidth="50.0" text="Year" />
+            <TableColumn fx:id="columnDateRep" prefWidth="111.0" text="Date" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnGet" layoutX="637.0" layoutY="13.0" mnemonicParsing="false" onAction="#getData" prefHeight="26.0" prefWidth="121.0" text="Get Data" />
+      <TextField fx:id="urlName" layoutX="63.0" layoutY="13.0" prefHeight="26.0" prefWidth="560.0" />
+      <ListView fx:id="listviewData" layoutX="716.0" layoutY="50.0" prefHeight="214.0" prefWidth="103.0" />
+      <Button fx:id="btnListele" layoutX="735.0" layoutY="272.0" mnemonicParsing="false" onAction="#grafikCiz" text="Grafik Çiz" />
+      <LineChart fx:id="lineChart" layoutY="358.0" prefHeight="308.0" prefWidth="440.0" title="Cases">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <Button fx:id="btnTemizle" layoutX="735.0" layoutY="308.0" mnemonicParsing="false" onAction="#Temizle" prefHeight="26.0" prefWidth="66.0" text="Temizle" />
+      <BarChart fx:id="barChart" layoutX="417.0" layoutY="358.0" prefHeight="308.0" prefWidth="440.0" title="Cases">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </BarChart>
+      <LineChart fx:id="lineChartDeath" layoutX="847.0" layoutY="26.0" prefHeight="308.0" prefWidth="440.0" title="Deaths">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <BarChart fx:id="barChartDeath" layoutX="847.0" layoutY="358.0" prefHeight="308.0" prefWidth="440.0" title="Deaths">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </BarChart>
+   </children>
+</AnchorPane>
