@@ -14,5 +14,9 @@ The data is provided in XML format as you see in the following example:</b>
 <b>After extracting the data from the specified XML file, I visualize it by using tables graphs. </b>
 
 
+![covid1](https://user-images.githubusercontent.com/60261458/84815224-65fe6d80-b01b-11ea-85f1-bf17ddfb64c2.png)
+
+
+
  
 </ul>
