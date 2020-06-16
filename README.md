@@ -17,6 +17,10 @@ The data is provided in XML format as you see in the following example:</b>
 ![covid1](https://user-images.githubusercontent.com/60261458/84815224-65fe6d80-b01b-11ea-85f1-bf17ddfb64c2.png)
 
 
+![covid2](https://user-images.githubusercontent.com/60261458/84815301-81697880-b01b-11ea-8be6-6ae205fe3ab9.png)
+
+
+
 
  
 </ul>
